@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.34.205",
+  "version": "0.34.206",
   "minShellVersion": "0.34.201",
   "shellDepsHash": "015ed8d9b3aa68872ca8db35ab7aff38fec2fe011da8f53323f5f8eed0903071",
   "alembicHead": "c7e4a9b18f02",
@@ -67,41 +67,41 @@
     "f3d21ac90b17",
     "f6a41746c0de"
   ],
-  "notes": "造像制片厂 v0.34.205：1) 全面加固三端防白屏启动与热更新看门狗（内置真实挂载验证、15 秒自动回滚保护与断网续传修复）；2) 首屏加载包体瘦身 25.4% 并按需懒加载系统设置，冷启动更轻快；3) 深度修复 Agent 会话可靠性、MiniMax H3 模型路由、音画同步合成及播放器/表单状态竞态问题。支持从 v0.34.201 及以上版本直接在线更新，同步发布 macOS（Apple Silicon / Intel）与 Windows 最新安装包。",
-  "publishedAt": "2026-11-25T01:35:56.647Z",
+  "notes": "造像制片厂 v0.34.206：1) 修复官方通道图像与文本模型偶发 401 鉴权失败与旧版升级后的凭证自动恢复；2) 全面兼容 Windows GBK/GB18030/UTF-16 多编码 TXT 剧本上传、读取与分析；3) 优化中文现代短剧角色资产提炼与选角生图（杜绝剧情堆砌与无关免责提示，人物外观更贴合剧本文脉）；4) 修复 DeepSeek 智能体工具参数兼容、Gemini 结构化输出围栏 JSON 冗余重试及连接握手超时降级。支持从 v0.34.201 及以上版本直接在线热更新，同步发布 macOS（Apple Silicon / Intel）与 Windows 最新安装包。",
+  "publishedAt": "2026-11-25T15:18:50.119Z",
   "hot": {
-    "url": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.205/zaoxiang-hot-v0.34.205.zxhot",
-    "sigUrl": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.205/zaoxiang-hot-v0.34.205.zxhot.sig",
-    "sha256": "e961f95c025ac9589b8932e97dc342c2040996a645b37ab1cb8c49c5773209a7",
-    "bytes": 10279300,
-    "signature": "D6znADhd8o2e7otPyOBrkdUGQOhp707oyW+DHdLI7ebu69NIpOqW2+BsWCFBkEVJhGGw1mUFOmx2gRert2lYBg==",
+    "url": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.206/zaoxiang-hot-v0.34.206.zxhot",
+    "sigUrl": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.206/zaoxiang-hot-v0.34.206.zxhot.sig",
+    "sha256": "aca601ba3c1206002680e5951c8471d2d399ec28bfafb7f09481b52145f5df15",
+    "bytes": 10291730,
+    "signature": "oD1gNjVuYUUmxbyyhr1NOl2Zt5QmKOxqsPlsM2eDpyBYosZEo0EsvuMmxZGUUrCqKyXwk5+x/wc/5dXVewarAQ==",
     "fileCount": 72
   },
   "shells": {
     "darwin-arm64": {
-      "version": "0.34.205",
-      "url": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.205/zaoxiang-studio-0.34.205-darwin-arm64.dmg",
-      "sigUrl": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.205/zaoxiang-studio-0.34.205-darwin-arm64.dmg.sig",
-      "sha256": "6f88f6a22fc641b7a05751b9bcba2f19fed6ffff9fd1245fa80957794d5fc224",
-      "bytes": 279687304,
-      "signature": "le3VN2O007NMNY0dhV6koKRG7B5/O30TPWU2zZwKBQmsj3056ux5BIzOxJfjIWPTX5MdHSGIe2bChjHAsFVgCA=="
+      "version": "0.34.206",
+      "url": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.206/zaoxiang-studio-0.34.206-darwin-arm64.dmg",
+      "sigUrl": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.206/zaoxiang-studio-0.34.206-darwin-arm64.dmg.sig",
+      "sha256": "b7f9315d469826c3a34b44fe74ed6f685e6dd3c4394f16f3948d08e3bcf34830",
+      "bytes": 279730858,
+      "signature": "BbPRCFS73KmkShZctu7mZv7/VcMZpqIvbhYucK5r0sE64PcPa4uhC1bxY4Aa+shea5AVK5lpJvE9a4b2UzueDg=="
     },
     "darwin-x64": {
-      "version": "0.34.205",
-      "url": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.205/zaoxiang-studio-0.34.205-darwin-x64.dmg",
-      "sigUrl": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.205/zaoxiang-studio-0.34.205-darwin-x64.dmg.sig",
-      "sha256": "f509b9d55b42e3b4a21b2ca6e5ee9056bf6fee9f098d8d27dd48ac7b03cca3ec",
-      "bytes": 293872024,
-      "signature": "W2V+8WBsL3Qia/0AtsZHikMhDa0KdOfClWK4iRGlCjzEIlQ0ZlzVoMR2hvZTYdWLewATZc1IfjRj0scZu1BxAw=="
+      "version": "0.34.206",
+      "url": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.206/zaoxiang-studio-0.34.206-darwin-x64.dmg",
+      "sigUrl": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.206/zaoxiang-studio-0.34.206-darwin-x64.dmg.sig",
+      "sha256": "442fdea173ea57d7473ccb6072bf1bff4a5491ae3fbd3d65c97f293c7ddc2452",
+      "bytes": 293865744,
+      "signature": "ljHF/hwiYz7y2d0/FQ1Yi/Jq4Myjlm/ueeVdRDvCFkjIZv33ncDereXMTfSugUQmoGPhfMSGoe2lswwv7mbFAA=="
     },
     "win32-x64": {
-      "version": "0.34.205",
-      "url": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.205/zaoxiang-studio-0.34.205-win32-x64.exe",
-      "sigUrl": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.205/zaoxiang-studio-0.34.205-win32-x64.exe.sig",
-      "sha256": "cd397a0451a9519d763a14faf9220ccba00e506547e833e8de10f588d7086a35",
-      "bytes": 292023794,
-      "signature": "1ECyUlGVXK3tH8UOLDryjn1b1wkW4IIy+FGDpJmGKy4TrQZxhekpUmpF9TeqYeAKZ1sjlqrMds6xhIrwqI3/CQ=="
+      "version": "0.34.206",
+      "url": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.206/zaoxiang-studio-0.34.206-win32-x64.exe",
+      "sigUrl": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.206/zaoxiang-studio-0.34.206-win32-x64.exe.sig",
+      "sha256": "83c3f2def297085ade90bd5dd9a1515b3ef9a552aa7c27d014d3bf5309f24075",
+      "bytes": 292038343,
+      "signature": "NQV/73XUwy7uI49Acvq8qwkSJ+NVeUAY9fen+qUVD3U7/OSJSZBOJthZvFu+v2bSA9+qsXKK7Yed0NnkdoEwCA=="
     }
   },
-  "signature": "o7KkUxBC2HsjGQzSigt37/t81ii3X7tMkB3dW0HLxAaEXzVbu8OFhd2rgxQPzIEJYZdqaqvrv1YMqnYWMAN3Cw=="
+  "signature": "tPT7ljbDZfNmF+cNdoUHs4Fpeg9O++vPPGfbaEz1cSHTkpj8NOIf/5o3W1EJp4XfjUdDT7Ketc3oq5aumb4ABw=="
 }
