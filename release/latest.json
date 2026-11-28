@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.34.209",
+  "version": "0.34.210",
   "minShellVersion": "0.34.207",
   "shellDepsHash": "bd07f2174a23dd23a31d83fc55406753b457e248789c23dc48d08b179d022dfa",
   "alembicHead": "c7e4a9b18f02",
@@ -67,14 +67,14 @@
     "f3d21ac90b17",
     "f6a41746c0de"
   ],
-  "notes": "造像制片厂 v0.34.209 热更新修复：1) 修复部分文本模型通道生成剧本规划时偶发格式指令不兼容导致失败的问题，自动切换通用兼容模式确保顺利出稿；2) 优化 AI 助手长对话稳定性：遇到高峰期限流时自动温和退避重试减少中断，遇到通道繁忙或网络波动时在严格防止重复扣费的前提下提供更清晰的中文恢复引导。",
-  "publishedAt": "2026-11-28T09:42:38.542Z",
+  "notes": "造像制片厂 v0.34.210 热更新：全新原生接入 magi2-s-1080p 视频生成模型，支持 4~30 秒任意整数秒时长、最多 10 张参考图与 3 段角色音色参考音频、1080p 高清画质锁定以及 16:9 / 9:16 / 1:1 / 4:3 / 3:4 / 21:9 六档画幅比例。",
+  "publishedAt": "2026-11-28T15:00:31.782Z",
   "hot": {
-    "url": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.209/zaoxiang-hot-v0.34.209.zxhot",
-    "sigUrl": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.209/zaoxiang-hot-v0.34.209.zxhot.sig",
-    "sha256": "c1409374fe68820da30daa26a5124da231982c678262620c3d70c6d7618ac347",
-    "bytes": 9832906,
-    "signature": "gpunjQc5R7XFr3imcVhhaEMzje5PgTTClc/ArAxvshcwK+MfPnbsgdDN+K85g0pozU73BoWuIyyvfKHAk72wAA==",
+    "url": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.210/zaoxiang-hot-v0.34.210.zxhot",
+    "sigUrl": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.210/zaoxiang-hot-v0.34.210.zxhot.sig",
+    "sha256": "0e02c27e6539ce3bc4ed3c54dadc2c7734dca03aa3476f98473a744ad5f1b56e",
+    "bytes": 9834004,
+    "signature": "l3LhMc2kvggrttc6E/mU2tpI0XqXMRmrOdAgAP6/B8EF/AQ4ZXheIUOIAPQZqkd2BedgePQQNxvtUrhlC9sMDg==",
     "fileCount": 72
   },
   "shells": {
@@ -103,5 +103,5 @@
       "signature": "Vt0zy64foVeKzok1q+3UGY5J5kTl64eBSF4Cs9HsWVA9CL5tVy1lu0YebVnNtXKq7HgK7uwHyW8q8yrXhSWKDA=="
     }
   },
-  "signature": "iSf2q2bWi8AG8E9mvP4nHCSSIMtqowv81nuJrceRa91Xz+YuI73YLqcnc8gjT0mTsb+UxrSUqh2gctC8+adXCQ=="
+  "signature": "XEoq7bTzWhOCVNWw9IWDfA/qh/kPC/57wcW/qUqEtenKF324QujMG2Ekq4FvcaYi0ql5uhV5gy9JHRX57ttnAw=="
 }
