@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.34.208",
+  "version": "0.34.209",
   "minShellVersion": "0.34.207",
   "shellDepsHash": "bd07f2174a23dd23a31d83fc55406753b457e248789c23dc48d08b179d022dfa",
   "alembicHead": "c7e4a9b18f02",
@@ -67,14 +67,14 @@
     "f3d21ac90b17",
     "f6a41746c0de"
   ],
-  "notes": "造像制片厂 v0.34.208 全链路稳定性与体验升级：1) 修复资产图生成/重试误报与上游出图成功后前端停留在生成中的状态同步问题，优化任务队列活跃置顶与重试防重机制；2) 增强全端网络超时护栏、智能体长对话防卡死与自动收口、账本抗并发锁及多账号状态隔离，保障 Mac（Apple Silicon / Intel）与 Windows 双端顺畅登录与稳定运行；3) 优化 Windows 端防文件锁安全写入、项目归档导入回滚、PNG 完整性校验与小图缩略图秒返；4) 显著优化冷启动响应、静态资源内存缓存、流式对话滚动与版本历史交互体验，同步发布热更新与三端最新安装包。",
-  "publishedAt": "2026-11-26T07:59:29.497Z",
+  "notes": "造像制片厂 v0.34.209 热更新修复：1) 修复部分文本模型通道生成剧本规划时偶发格式指令不兼容导致失败的问题，自动切换通用兼容模式确保顺利出稿；2) 优化 AI 助手长对话稳定性：遇到高峰期限流时自动温和退避重试减少中断，遇到通道繁忙或网络波动时在严格防止重复扣费的前提下提供更清晰的中文恢复引导。",
+  "publishedAt": "2026-11-28T09:42:38.542Z",
   "hot": {
-    "url": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.208/zaoxiang-hot-v0.34.208.zxhot",
-    "sigUrl": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.208/zaoxiang-hot-v0.34.208.zxhot.sig",
-    "sha256": "e3116b981ee8622c8d3090c350525de10f1f9a8f2e17aead39b7eb75f6b7d211",
-    "bytes": 9826812,
-    "signature": "haIOOYiY2R2+Swfs9ysVZsZMyjif6CZcpGiB2BOhXN2Ou+6yN6ByD2/Jf/e4HbBRL2UFcS7JGVRvMuMdKzPDDw==",
+    "url": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.209/zaoxiang-hot-v0.34.209.zxhot",
+    "sigUrl": "https://github.com/changekeep666-star/aoxiang-studio-releases/releases/download/v0.34.209/zaoxiang-hot-v0.34.209.zxhot.sig",
+    "sha256": "c1409374fe68820da30daa26a5124da231982c678262620c3d70c6d7618ac347",
+    "bytes": 9832906,
+    "signature": "gpunjQc5R7XFr3imcVhhaEMzje5PgTTClc/ArAxvshcwK+MfPnbsgdDN+K85g0pozU73BoWuIyyvfKHAk72wAA==",
     "fileCount": 72
   },
   "shells": {
@@ -103,5 +103,5 @@
       "signature": "Vt0zy64foVeKzok1q+3UGY5J5kTl64eBSF4Cs9HsWVA9CL5tVy1lu0YebVnNtXKq7HgK7uwHyW8q8yrXhSWKDA=="
     }
   },
-  "signature": "frPnJUz89jv899qN855+AvdO6yINaue7snHGwgAUpFstJ+y5q0TxXMAqTogak6HPWzWdrBiqKTNu2GJU+3olAA=="
+  "signature": "iSf2q2bWi8AG8E9mvP4nHCSSIMtqowv81nuJrceRa91Xz+YuI73YLqcnc8gjT0mTsb+UxrSUqh2gctC8+adXCQ=="
 }
